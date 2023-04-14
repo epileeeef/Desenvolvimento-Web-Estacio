@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+}
+
+main {
+	padding: 1em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bolder;
+	margin-right: 0.5em;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+label:hover {
+    background-color: red;
+}
+
+input[type="date"],
+input[type="number"],
+button {
+    margin-bottom: 15px;
+	padding: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+}
+
+#results {
+	margin-top: 1em;
+}
