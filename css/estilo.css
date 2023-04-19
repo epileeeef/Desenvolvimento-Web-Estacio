@@ -2,11 +2,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0;
+    background-color: gray;
 
 }
 
 header {
-    background-color: blue;
+    background-color: teal;
     width: 1879px;
     height: 120px;
 
@@ -27,7 +28,14 @@ form {
 }
 
 input{
-    display: block;
     font-size: 18px;
+    border-style: inset;
+    border-color: black;
 }
 
+#entrada, #saida{
+    display: block;
+}
+#quartos {
+    display: table-column;
+}
