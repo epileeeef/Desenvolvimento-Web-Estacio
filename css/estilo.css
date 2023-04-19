@@ -1,55 +1,33 @@
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+
 }
 
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 1em;
+    background-color: blue;
+    width: 1879px;
+    height: 120px;
+
 }
 
-main {
-	padding: 1em;
+h1 {
+    color: beige;
+    margin: 0px;
+    text-align: center;
+    font-size: 35px;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: center;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
 }
 
-label {
-    font-size: 1.1em;
-    font-weight: bolder;
-	margin-right: 0.5em;
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px;
+input{
+    display: block;
+    font-size: 18px;
 }
 
-label:hover {
-    background-color: red;
-}
-
-input[type="date"],
-input[type="number"],
-button {
-    margin-bottom: 15px;
-	padding: 0.5em;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	margin-right: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-button {
-	background-color: #333;
-	color: #fff;
-}
-
-#results {
-	margin-top: 1em;
-}
