@@ -2,40 +2,132 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0;
-    background-color: gray;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
 
 }
 
 header {
-    background-color: teal;
+    background-color: rgb(50, 149, 216);
     width: 1879px;
     height: 120px;
-
+    text-align: center;
 }
 
 h1 {
-    color: beige;
+    color: rgb(255, 255, 255);
     margin: 0px;
-    text-align: center;
     font-size: 35px;
+    padding: 30px;
 }
 
 form {
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    border: 4px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(50, 149, 216);
+}
+
+.login {
+    padding: 25px;
+    margin-top: 20px;
     
 }
 
-input{
-    font-size: 18px;
-    border-style: inset;
-    border-color: black;
+h2 {
+    color: rgb(255, 255, 255);
 }
 
-#entrada, #saida{
-    display: block;
+#email, #senha{
+    padding: 2px;
+    width: 200px;
+    text-align: left;
 }
-#quartos {
-    display: table-column;
+
+#btn_entrar{
+    border-radius: 6px;
+    margin-top: 10px;
+
+
+}
+
+#pesq {
+    margin-top: 10px;
+    border-radius: 6px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+input {
+   display: block;
+   width: 130px;
+   font-size: 17px;
+   border-radius: 5px;
+   text-align: center;
+    
+}
+
+#quartos, #hospedes {
+    width: 35px;
+    text-align: center;
+}
+
+div.card1 {
+    border: 4px solid black;
+    width: 250px;
+    height: 380px;
+    padding-top: 20px;
+    text-align: center;
+    background: url(../img/backgroundanuncios.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 900;
+    
+    
+}
+
+div.card2 {
+    border: 4px solid black;
+    width: 250px;
+    height: 380px;
+    padding-top: 20px;
+    text-align: center;
+    background: url(../img/backgroundanuncios.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 900;
+
+}
+
+div.card3 {
+    border: 4px solid black;
+    width: 250px;
+    height: 380px;
+    padding-top: 20px;
+    text-align: center;
+    background: url(../img/backgroundanuncios.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 900;
+
+}
+
+
+
+button {
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
 }

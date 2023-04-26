@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Reserve seu quarto aqui</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reserve seu quarto</h1>
+    </header>
+    <main>
+        <form id="login" name="login" class="login" method="get">
+            <h2>Login</h2>
+            <label for="email">E-mail</label>
+            <input type="email" value="email@dominio.com" id="email" name="email" onfocus="this.value='';">
+            <label for="senha">Senha</label>
+            <input type="password" value="*******" id="senha" name="senha" maxlength="14" onfocus="this.value='';">
+            <button id="btn_entrar">Entrar</button>
+        </form>
+        
+        <form method="post">
+            <label for="entrada">Data de entrada</label>
+            <input type="date" id="entrada" name="entrada">
+            <label for="saida">Data de saída</label>
+            <input type="date" id="saida" name="saida">
+            <label for="quartos">Quantidade de quartos</label>
+            <input type="number" id="quartos" name="quartos" min="1" max="10">
+            <label for="hospedes">Quantidade de Hóspedes</label>
+            <input type="number" id="hospedes" name="hospedes">
+            <button type="submit" id="pesq">Pesquisar</button>
+        </form>
+        <div class="anuncios">
+            <div  class="card1" style="margin-left: 550px; margin-top: -530px;">
+                
+                    <div class="imagem">
+                        <img src="../../img/quarto1.jpg" style="margin-top:3px; border: 2px solid black; border-radius: 4px;" height="200px" width="230px">
+                    </div>    
+                        <br><label for="anuncio1">Quarto 1</label>
+                        <p id="descricao">2 camas, 1 banheiro e TV</p>
+                    <div class="preço">
+                        <p id="preco">R$70,00</p>
+                        <button>Saiba mais</button>
+                    </div>        
+            </div>
+
+            <div  class="card2" style="margin-left: 950px; margin-top: -410px;">
+                
+                    <div class="imagem">
+                        <img src="../../img/quarto2.jpg" style="margin-top:3px; border: 2px solid black; border-radius: 4px;" height="200px" width="230px">
+                    </div>    
+                        <br><label for="anuncio1">Quarto 2</label>
+                        <p id="descricao">1 camas, 1 banheiro</p>
+                    <div class="preço">
+                        <p id="preco">R$50,00</p>
+                        <button>Saiba mais</button>
+                    </div>       
+            </div>
+
+            <div  class="card3" style="margin-left: 1350px; margin-top: -410px; border-radius: 4px;">
+                    <div class="imagem">
+                        <img src="../../img/quarto3.jpg" alt="" style="margin-top:3px; border: 2px solid black; border-radius: 4px;" height="200px" width="230px">
+                    </div>    
+                        <br><label for="anuncio1">Quarto 3</label>
+                        <p id="descricao">1 camas, 1 banheiro</p>
+                    <div class="preço">
+                        <p id="preco">R$40,00</p>
+                        <button>Saiba mais</button>
+                    </div> 
+            </div>
+        </div>
+    </main>
+    
+
+
+
+</body>
